@@ -7,7 +7,7 @@ type EditorProps = {
 const Editor = ({ onChange }: EditorProps) => {
   return (
     <div className="editor">
-      <textarea spellCheck='false' onChange={(e) => onChange(e.target.value)}></textarea>
+      <textarea id="editor" spellCheck='false' onChange={(e) => onChange(e.target.value)}></textarea>
     </div>
   );
 }

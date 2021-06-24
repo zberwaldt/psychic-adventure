@@ -4,6 +4,6 @@ import Editor from './Editor';
 
 test('renders learn react link', () => {
     render(<Editor onChange={() => 'hello'}/>);
-    let textarea = screen.getByLabelText(/textarea/i);
+    let textarea = document.querySelector('#');
     expect(textarea).toBeInTheDocument();
 });
