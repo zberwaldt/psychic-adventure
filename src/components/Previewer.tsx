@@ -1,21 +1,20 @@
 import React from 'react';
 import parse from 'html-react-parser';
-const DOMPurify = require('dompurify');
-
 
 type PreviewerProps = {
-    content?: string
+    content?: any
 };
 
 const Previewer = ({ content }: PreviewerProps) => {
 
-    let sanitizedHTML = DOMPurify.sanitize(content);
+  let parsed = parse(content);
 
   return (
     <div id="preview" className="preview">
-        {parse(sanitizedHTML)}
+      { parsed }
     </div>
-  );
+  )
+
 }
 
 export default Previewer;
