@@ -12,7 +12,7 @@ const Previewer = ({ content }: PreviewerProps) => {
     let sanitizedHTML = DOMPurify.sanitize(content);
 
   return (
-    <div className="preview">
+    <div id="preview" className="preview">
         {parse(sanitizedHTML)}
     </div>
   );

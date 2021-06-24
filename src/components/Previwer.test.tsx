@@ -4,6 +4,6 @@ import Previewer from './Previewer';
 
 test('renders learn react link', () => {
   render(<Previewer />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const previewer = screen.getByLabelText(/div/i);
+  expect(previewer).toBeInTheDocument();
 });
