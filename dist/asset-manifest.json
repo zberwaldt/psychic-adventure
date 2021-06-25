@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/psychic-adventure/static/css/main.104ede41.chunk.css",
+    "main.js": "/psychic-adventure/static/js/main.a603e82f.chunk.js",
+    "main.js.map": "/psychic-adventure/static/js/main.a603e82f.chunk.js.map",
+    "runtime-main.js": "/psychic-adventure/static/js/runtime-main.f0b793b2.js",
+    "runtime-main.js.map": "/psychic-adventure/static/js/runtime-main.f0b793b2.js.map",
+    "static/js/2.e64fd7e1.chunk.js": "/psychic-adventure/static/js/2.e64fd7e1.chunk.js",
+    "static/js/2.e64fd7e1.chunk.js.map": "/psychic-adventure/static/js/2.e64fd7e1.chunk.js.map",
+    "static/js/3.96dee0f5.chunk.js": "/psychic-adventure/static/js/3.96dee0f5.chunk.js",
+    "static/js/3.96dee0f5.chunk.js.map": "/psychic-adventure/static/js/3.96dee0f5.chunk.js.map",
+    "index.html": "/psychic-adventure/index.html",
+    "static/css/main.104ede41.chunk.css.map": "/psychic-adventure/static/css/main.104ede41.chunk.css.map",
+    "static/js/2.e64fd7e1.chunk.js.LICENSE.txt": "/psychic-adventure/static/js/2.e64fd7e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0b793b2.js",
+    "static/js/2.e64fd7e1.chunk.js",
+    "static/css/main.104ede41.chunk.css",
+    "static/js/main.a603e82f.chunk.js"
+  ]
+}
