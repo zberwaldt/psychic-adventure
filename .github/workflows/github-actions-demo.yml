@@ -10,6 +10,7 @@ jobs:
       - name: check out
         uses: actions/checkout@v1
       - name: generate app.
+        run: yarn install
         run: yarn build
       - name: Publish to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
