@@ -1,4 +1,5 @@
 import React from 'react';
+import './Editor.css';
 
 type EditorProps = {
   value?: string,
@@ -8,7 +9,7 @@ type EditorProps = {
 const Editor = ({ value, onChange }: EditorProps) => {
   return (
     <div className="editor">
-      <textarea id="editor" spellCheck='false' onChange={(e) => onChange(e.target.value)} value={ value }></textarea>
+      <textarea id="editor" spellCheck='false' onChange={(e) => onChange(e.target.value)} defaultValue={ value } />
     </div>
   );
 }

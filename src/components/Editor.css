@@ -1,0 +1,12 @@
+#editor {
+  resize: none;
+  border: none;
+  height: 100vh;
+  width: 50vw;
+  padding: 10px;
+}
+
+#editor:focus-visible {
+  border: none;
+  outline: none;
+}

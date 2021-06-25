@@ -1,0 +1,9 @@
+.App-header h1 {
+  text-align: center;
+}
+
+#psychic-adventure {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

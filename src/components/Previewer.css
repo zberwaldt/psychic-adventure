@@ -1,0 +1,8 @@
+#preview {
+  width: 50vw;
+}
+
+img {
+  max-width: 50vw;
+  height: auto;
+}
