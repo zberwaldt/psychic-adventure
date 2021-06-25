@@ -2,8 +2,10 @@
   resize: none;
   border: none;
   height: 100vh;
-  width: 50vw;
+  width: calc(50vw - 40px);
   padding: 10px;
+  background: rgba(250, 250, 250, 1);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #editor:focus-visible {

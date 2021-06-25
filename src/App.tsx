@@ -14,12 +14,10 @@ marked.setOptions({
 
 function App() {
 
-  let initialMarkdown = dedent`# Psychic Adeventure
-## A React Markdown Editor
+  let initialMarkdown = dedent`# Psychic Adventure
+## A Markdown Previewer made with React!
 
-<div align="center">
 ![test](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhardboilednews.com%2Fwp-content%2Fuploads%2F2017%2F10%2FPsychic.jpg&f=1&nofb=1)
-</div>
 
 Reasons to try:
 * It's **cool**!
